@@ -10,6 +10,22 @@ For **Day 2**, I built a **Unit Converter App** using **Streamlit**. This app al
 - Simple and interactive UI with Streamlit  
 - Fast and lightweight  
 
+## 📌 Day 3: Secure Password Generator App 🔐  
+For **Day 3**, I developed a **Secure Password Generator App** using **Streamlit**. It helps users generate strong and secure passwords with customization options.  
+
+### 🚀 Features:  
+- ✅ Choose password length (6 to 50 characters)  
+- ✅ Include **digits** and **special characters**  
+- ✅ Beautiful **dark theme** UI  
+- ✅ One-click password generation  
+- ✅ **Copy to Clipboard** feature  
+
+### 🎬 Live Demo  
+🔗 [Try the Password Generator](https://mohsin897-password-generator.streamlit.app/)  
+
+### 📸 Screenshot  
+![App Screenshot](https://i.imgur.com/YOUR_IMAGE_LINK.png)  
+
 ## 🛠 Tech Stack:  
 - **Python**  
 - **Streamlit**  
@@ -24,6 +40,6 @@ Follow my journey and updates:
 - 🌟 [LinkedIn](YOUR_LINKEDIN_PROFILE)   
 - 📂 [GitHub](YOUR_GITHUB_PROFILE)  
 
-A big thanks to **[Your Teacher's Name]** for guiding and inspiring us throughout this challenge! 🙌  
+A big thanks to **Sir Asharib Ali** for guiding and inspiring us throughout this challenge! 🙌  
 
 #RamadanCodingNight #Streamlit #Python #CodingChallenge #Learning  
