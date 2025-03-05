@@ -21,10 +21,7 @@ For **Day 3**, I developed a **Secure Password Generator App** using **Streamlit
 - ✅ **Copy to Clipboard** feature  
 
 ### 🎬 Live Demo  
-🔗 [Try the Password Generator](https://mohsin897-password-generator.streamlit.app/)  
-
-### 📸 Screenshot  
-![App Screenshot](https://i.imgur.com/YOUR_IMAGE_LINK.png)  
+🔗 [Try the Password Generator](https://python-password-generator89.streamlit.app/)  
 
 ## 🛠 Tech Stack:  
 - **Python**  
