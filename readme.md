@@ -23,10 +23,35 @@ For **Day 3**, I developed a **Secure Password Generator App** using **Streamlit
 ### 🎬 Live Demo  
 🔗 [Try the Password Generator](https://python-password-generator89.streamlit.app/)  
 
+## 📌 Day 4: FastAPI - Side Hustle & Money Quotes API  
+For **Day 4**, I explored **FastAPI**, a modern and high-performance web framework for building APIs with Python. I created a simple API that provides **side hustle ideas** and **money quotes**.  
+
+### 🚀 Features:  
+- ✅ Returns a random **side hustle idea**  
+- ✅ Returns a random **money quote**  
+- ✅ API authentication using a basic API key  
+- ✅ Implemented with **FastAPI** and **uv** as a package manager  
+- ✅ Interactive API documentation with **Swagger UI**  
+
+### 🔧 How to Run the API:  
+1. Install dependencies:  
+```sh  
+uv pip install fastapi uvicorn  
+```
+2. Run the server:  
+```sh  
+uvicorn filename:app --reload  
+```
+3. Access **Swagger UI** for testing:  
+```
+http://127.0.0.1:8000/docs  
+```
+
 ## 🛠 Tech Stack:  
 - **Python**  
-- **Streamlit**  
-- **Pandas (if needed for data handling)**  
+- **Streamlit** (Day 2 & 3)  
+- **FastAPI** (Day 4)  
+- **uvicorn** (for running FastAPI)  
 
 ## 📺 Ramadan Coding Night Challenge Playlist  
 Watch the full **Ramadan Coding Night Challenge** series here:  
@@ -39,4 +64,4 @@ Follow my journey and updates:
 
 A big thanks to **Sir Asharib Ali** for guiding and inspiring us throughout this challenge! 🙌  
 
-#RamadanCodingNight #Streamlit #Python #CodingChallenge #Learning  
+#RamadanCodingNight #Streamlit #FastAPI #Python #CodingChallenge #Learning
