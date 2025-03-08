@@ -80,6 +80,31 @@ For **Day 5**, I focused on integrating APIs into a **Money Making Machine App**
    ```sh
    streamlit run app.py
    ```
+## 📌 Day 6: ⏳ Time Zone Checker & Converter  
+
+For **Day 6**, I built a **Time Zone Checker & Converter** using **Python & Streamlit**. This app allows users to check the current time in multiple time zones and convert time from one zone to another.  
+
+### 🚀 Features:  
+- ✅ **Check real-time updates** for multiple time zones  
+- ✅ **Convert time** between different time zones  
+- ✅ **Modern UI** with a gradient background & dark-styled time display  
+- ✅ **Interactive dropdowns** for selecting time zones  
+- ✅ **Instant conversion** with a simple button click  
+
+---
+
+## 🛠️ Technologies Used  
+
+- **Python** 🐍  
+- **Streamlit** 🎨  
+- **ZoneInfo** (for time zone handling)  
+- **HTML & CSS** (for styling)  
+
+---
+
+## 📥 Installation Guide  
+
+Follow these steps to run the project locally:  
 
 ## 🎮 Ramadan Coding Night Challenge Playlist  
 Watch the full **Ramadan Coding Night Challenge** series here:  
