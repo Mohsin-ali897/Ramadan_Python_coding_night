@@ -175,7 +175,34 @@ A **Mood Tracker App** built using **Streamlit, Pandas, and Plotly** to track an
 - **CSV for data storage**  
 
 ---
+## 🌙 Day 8: Quiz-App 🚀
 
+For **Day 8**, I built a **Quiz App** using **Streamlit**. The app randomly selects quiz questions, allowing users to test their general knowledge with instant feedback.  
+
+### ✅ What I Learned:
+- How to use **Streamlit session state** for managing quiz progress.
+- Implementing **random selection** of quiz questions dynamically.
+- Enhancing **user experience** with better UI/UX.
+
+---
+
+## 🚀 Features
+- 📝 Randomly selects a quiz question from a predefined list.
+- 🎯 Multiple-choice format using **radio buttons** for easy selection.
+- ✅ Instant feedback (Correct/Incorrect message).
+- 🔄 Automatically loads a new question after submission.
+- 🎨 **Simple and elegant UI** with custom styles.
+
+## 🛠️ Technologies Used
+- **Python**
+- **Streamlit**
+- **Random Module** (for random question selection)
+
+## 📌 Installation & Usage
+1. **Clone the repository** (if applicable) or copy the script.
+   ```bash
+   git clone https://github.com/yourusername/quiz-app.git
+   cd quiz-app
 
 ## 🎮 Ramadan Coding Night Challenge Playlist  
 Watch the full **Ramadan Coding Night Challenge** series here:  

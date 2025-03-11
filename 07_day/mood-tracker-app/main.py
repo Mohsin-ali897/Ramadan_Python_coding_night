@@ -1,3 +1,4 @@
+#? ==================== Original Code ====================
 # import streamlit as st # for creating web app
 # import pandas as pd # for data manipulation
 # import datetime # for date and time 
@@ -27,6 +28,8 @@
 #     data['Date']= pd.to_datetime(data['Date'])
 #     mood_count = data.groupby('Mood').count()['Date']
 #     st.bar_chart(mood_count)
+
+#? ==================== Modified Code with plotly==================== 
 import streamlit as st  
 import pandas as pd  
 import datetime  
