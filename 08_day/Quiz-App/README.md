@@ -20,3 +20,4 @@ This is a **simple and interactive Quiz App** built using **Streamlit** for the 
    git clone https://github.com/Mohsin-ali897/Ramadan_Python_coding_night.git
    cd 08_day
    cd Quiz-App
+   ```

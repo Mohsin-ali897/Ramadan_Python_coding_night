@@ -186,6 +186,8 @@ For **Day 8**, I built a **Quiz App** using **Streamlit**. The app randomly sele
 
 ---
 
+
+
 ## 🚀 Features
 - 📝 Randomly selects a quiz question from a predefined list.
 - 🎯 Multiple-choice format using **radio buttons** for easy selection.
@@ -204,6 +206,29 @@ For **Day 8**, I built a **Quiz App** using **Streamlit**. The app randomly sele
    git clone https://github.com/yourusername/quiz-app.git
    cd quiz-app
 
+## 📌 Day 10: Beautiful Calculator App 🧮  
+
+For **Day 10**, I built a **Beautiful Calculator App** using **Streamlit**. This is a simple yet elegant calculator that allows users to perform basic arithmetic operations in a user-friendly UI.  
+
+### 🚀 Features:  
+✅ **Modern UI** with a stylish design  
+✅ **Supports Addition (+), Subtraction (-), Multiplication (×), and Division (÷)**  
+✅ **Error handling** for division by zero  
+✅ **User-friendly layout** with separate input columns  
+✅ **Stylish buttons** and improved result display  
+
+
+
+
+### 🛠️ Installation & Setup  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Mohsin-ali897/Ramadan_Python_coding_night.git
+   cd 10_day
+   cd simple-calculator
+   ```
+---
 ## 🎮 Ramadan Coding Night Challenge Playlist  
 Watch the full **Ramadan Coding Night Challenge** series here:  
 🔗 **[YouTube Playlist](https://www.youtube.com/live/EeFUfDNNoNg?si=owG-2tdSuGIYqSJD)**  
