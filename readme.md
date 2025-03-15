@@ -205,7 +205,8 @@ For **Day 8**, I built a **Quiz App** using **Streamlit**. The app randomly sele
    ```bash
    git clone https://github.com/yourusername/quiz-app.git
    cd quiz-app
-
+   ```
+---
 ## 📌 Day 10: Beautiful Calculator App 🧮  
 
 For **Day 10**, I built a **Beautiful Calculator App** using **Streamlit**. This is a simple yet elegant calculator that allows users to perform basic arithmetic operations in a user-friendly UI.  
@@ -228,7 +229,37 @@ For **Day 10**, I built a **Beautiful Calculator App** using **Streamlit**. This
    cd 10_day
    cd simple-calculator
    ```
+
 ---
+## 📌 Day 11: CLI-Based Personal Library Manager 📚
+
+For **Day 11**, I built a **CLI-Based Personal Library Manager** using Python. This command-line tool helps users manage their personal book collection efficiently.
+
+### 🚀 Features:
+- ✅ Add new books with title, author, and genre
+- ✅ Remove books by title or index
+- ✅ List all books in the library
+- ✅ Search for books by title or author
+- ✅ Store data in a JSON file for persistence
+
+### 🛠️ Installation & Setup
+
+1. **Clone the repository**  
+ 
+   ```bash  
+   git clone https://github.com/Mohsin-ali897/Ramadan_Python_coding_night.git  
+   cd 11_day 
+   cd personal-library-manager
+   ```
+
+
+2. **Run the Library Manager**  
+   ```bash  
+   python library_manager.py  
+   ```
+
+---
+
 ## 🎮 Ramadan Coding Night Challenge Playlist  
 Watch the full **Ramadan Coding Night Challenge** series here:  
 🔗 **[YouTube Playlist](https://www.youtube.com/live/EeFUfDNNoNg?si=owG-2tdSuGIYqSJD)**  

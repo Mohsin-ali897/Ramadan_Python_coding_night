@@ -1,0 +1,16 @@
+[
+    {
+        "title": "48 law of power",
+        "author": "michaviel",
+        "year": "2004",
+        "genre": "power",
+        "read": false
+    },
+    {
+        "title": "rich dad poor dad",
+        "author": "robort kiawaski",
+        "year": "1998",
+        "genre": "finance",
+        "read": true
+    }
+]
