@@ -280,7 +280,40 @@ async def message_handler(message: cl.Message):
     await cl.Message(content=response).send()
 ```
 ---
+## 🚀 Day 14 - Gemini AI Chatbot with Chainlit 🤖  
 
+For **Day 14**, I built a **Gemini AI-powered chatbot** using **Chainlit** and **Google Generative AI (Gemini API)**. This chatbot can handle user queries dynamically in a conversational format.  
+
+### 🔥 Features:  
+- ✅ Uses **Gemini 2.0 Flash** model for fast responses  
+- ✅ **Continuously listens** for user input  
+- ✅ **Interactive chat interface** using **Chainlit**  
+- ✅ **Environment variable handling** with **dotenv** for API security  
+
+### 🛠️ Key Code:  
+```python
+import os
+import chainlit as cl
+import google.generativeai as genai
+from dotenv import load_dotenv
+
+load_dotenv()
+gemini_api_key = os.getenv("GEMINI_API_KEY")
+genai.configure(api_key=gemini_api_key)
+
+model = genai.GenerativeModel(model_name='gemini-2.0-flash')
+
+@cl.on_chat_start
+async def handle_chat():
+    await cl.Message(content="Hello, I am a chatbot. How can I help you?").send()
+
+@cl.on_message
+async def handle_message(message: cl.Message):
+    prompt = message.content
+    response = model.generate_content(prompt)
+    response_text = response.text if hasattr(response, 'text') else response
+    await cl.Message(content=response_text).send()
+```
 ## 🎮 Ramadan Coding Night Challenge Playlist  
 Watch the full **Ramadan Coding Night Challenge** series here:  
 🔗 **[YouTube Playlist](https://www.youtube.com/live/EeFUfDNNoNg?si=owG-2tdSuGIYqSJD)**  
