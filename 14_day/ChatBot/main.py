@@ -42,3 +42,4 @@ async def handle_message(message: cl.Message):
 if __name__ == '__main__':
     cl.handle_chat()
     cl.handle_message()
+# GEMINI_API_KEY=AIzaSyAsD882ZxOCoV-Q34REtACxjv3uGEBC23E
