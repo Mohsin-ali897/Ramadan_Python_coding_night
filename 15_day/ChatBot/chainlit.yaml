@@ -1,0 +1,18 @@
+chainlit: 2.0.0
+# interface settings
+ui:
+  name: "ChatBot"
+  description: "A simple chatbot"
+# default_expand_message: "I'm sorry, I don't understand. Can you rephrase?"
+default_expand_message: true
+
+auth:
+  required: true
+  providers:
+    - github
+
+#  auth provider settings
+oauth_providers:
+  github:
+    client_id: ${OAUTH_GITHUB_CLIENT_ID}
+    client_secret: ${OAUTH_GITHUB_CLIENT_SECRET}

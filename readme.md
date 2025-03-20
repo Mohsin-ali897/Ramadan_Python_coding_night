@@ -314,6 +314,27 @@ async def handle_message(message: cl.Message):
     response_text = response.text if hasattr(response, 'text') else response
     await cl.Message(content=response_text).send()
 ```
+---
+
+## 📌 Day 15: AI Chatbot with Chainlit & Gemini AI 🤖  
+
+For **Day 15**, I built a **simple chatbot** using **Chainlit** and **Google Generative AI (Gemini API)**. This chatbot supports:  
+
+- ✅ **User authentication** with GitHub OAuth  
+- ✅ **Interactive chat experience** powered by Gemini AI  
+- ✅ **Session-based message history**  
+- ✅ **Secure API key handling**  
+
+### 🛠️ Tech Stack:
+- **Python**, **Chainlit**, **Gemini AI**, **OAuth**, **dotenv**  
+
+### 🚀 How to Run:
+1. **Clone the repo** and navigate to the project folder  
+2. **Install dependencies:** `pip install -r requirements.txt`  
+3. **Set up `.env` file** with your Google API key  
+4. **Run the chatbot:** `chainlit run chatbot.py`  
+
+---
 ## 🎮 Ramadan Coding Night Challenge Playlist  
 Watch the full **Ramadan Coding Night Challenge** series here:  
 🔗 **[YouTube Playlist](https://www.youtube.com/live/EeFUfDNNoNg?si=owG-2tdSuGIYqSJD)**  
